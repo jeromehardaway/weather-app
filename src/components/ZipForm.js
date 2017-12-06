@@ -11,7 +11,7 @@ class ZipForm extends Component {
 }
 
   inputUpdated(e) {
-    const { value } e.target;
+    const { value } = e.target;
 
     this.setState({ zipcode: value });
   }
